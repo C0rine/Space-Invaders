@@ -6,7 +6,7 @@ public class SpaceShip : MonoBehaviour {
 
     public float speed = 30;
 
-    // public GameObject theBullet;
+    public GameObject theBullet;
 
     private void FixedUpdate() {
 
@@ -21,7 +21,7 @@ public class SpaceShip : MonoBehaviour {
 
         if (Input.GetButtonDown("Jump")) {
 
-
+            Instantiate(theBullet, transform.position, Quaternion.identity);
 
         }
 
