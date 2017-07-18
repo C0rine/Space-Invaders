@@ -99,6 +99,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b08c401e58ab9c24cab5c6bffa53d90f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 30
+  explodedShipImage: {fileID: 21300014, guid: 1819bbdf1897958499d51198cc8dceec, type: 3}
 --- !u!212 &212734834523538296
 SpriteRenderer:
   m_ObjectHideFlags: 1
